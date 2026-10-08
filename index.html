@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f9fc">
+  <title>Cube.AI — See it from a different angle.</title>
+  <meta name="description" content="A thinking space for product designers. Frame your challenge, explore six perspectives, and find a direction with Cube.AI.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=IBM+Plex+Mono:wght@400;450;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg class="svg-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><symbol id="cube-mark" viewBox="0 0 32 36"><path d="M16 2 30 10v16L16 34 2 26V10Z M2 10l14 8 14-8 M16 18v16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol><symbol id="spark" viewBox="0 0 24 24"><path d="m12 2 2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7Z" fill="none" stroke="currentColor" stroke-width="1.4"/></symbol></svg>
+  <header class="site-header">
+    <a class="wordmark" href="#" aria-label="Cube.AI home"><svg width="28" height="32" aria-hidden="true"><use href="#cube-mark"/></svg><span>cube<span class="wordmark-ai">.ai</span></span></a>
+    <nav id="main-nav" aria-label="Main navigation"><a href="#about">Meet Cube</a><a href="#method">The method</a><a href="#perspectives">Six perspectives</a></nav>
+    <a class="button button-small header-cta" href="https://cubeboard-studio-blair.clever-flint-5576.chatgpt.site/" target="_blank" rel="noopener">Open prototype <span class="button-corner" aria-hidden="true">+</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">A thinking space for designers</p>
+        <h1 id="hero-title">See it from<br>a different <em>angle.</em></h1>
+        <p class="hero-description">Big questions need room to unfold. Turn a loose brief into new possibilities—and a direction you can believe in.</p>
+        <div class="hero-actions"><a class="button" href="https://cubeboard-studio-blair.clever-flint-5576.chatgpt.site/" target="_blank" rel="noopener">Explore the prototype <span class="button-corner" aria-hidden="true">+</span></a><a class="text-link" href="https://cubeboard-demo-blair.clever-flint-5576.chatgpt.site/" target="_blank" rel="noopener">See a worked example <span aria-hidden="true">+</span></a></div>
+      </div>
+      <div class="hero-art cube-visual">
+        <svg class="cube-illustration" viewBox="0 0 540 540" role="img" aria-labelledby="cube-visual-title">
+          <title id="cube-visual-title">A simple blue cube, seen from a different angle</title>
+          <defs>
+            <linearGradient id="cube-top" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#e2e6ff"/><stop offset="1" stop-color="#9ba5ff"/></linearGradient>
+            <linearGradient id="cube-left" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#7d8aff"/><stop offset=".55" stop-color="#5866f3"/><stop offset="1" stop-color="#5059ed"/></linearGradient>
+            <linearGradient id="cube-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5664ef"/><stop offset="1" stop-color="#3543c2"/></linearGradient>
+            <radialGradient id="cube-floor"><stop stop-color="#5059ed" stop-opacity=".2"/><stop offset=".65" stop-color="#5059ed" stop-opacity=".06"/><stop offset="1" stop-color="#5059ed" stop-opacity="0"/></radialGradient>
+          </defs>
+          <ellipse class="cube-floor" cx="270" cy="482" rx="186" ry="43" fill="url(#cube-floor)"/>
+          <g class="cube-body" stroke-linejoin="round">
+            <path d="M270 54 445 155 270 256 95 155Z" fill="url(#cube-top)"/>
+            <path d="M95 155 270 256v202L95 357Z" fill="url(#cube-left)"/>
+            <path d="m270 256 175-101v202L270 458Z" fill="url(#cube-right)"/>
+            <path d="M95 155 270 256 445 155M270 256v202" fill="none" stroke="#eef0ff" stroke-opacity=".65" stroke-width="1.4"/>
+            <path d="M95 155 270 54 445 155" fill="none" stroke="#d6dcff" stroke-width="1.4"/>
+          </g>
+        </svg>
+      </div>
+    </section>
+    <section id="about" class="about-section wrap section-space" aria-labelledby="about-title">
+      <div class="section-kicker"><span class="mono">Meet Cube</span><span class="tiny-line"></span></div>
+      <div class="about-grid"><h2 id="about-title">A little structure.<br><em>A lot of possibility.</em></h2><div class="about-copy"><p>A vague brief. A board full of ideas. No clear next step. Cube helps you turn all of that into a direction.</p><p>Frame the challenge, explore different perspectives, and choose what to try next—all in one thinking space.</p></div></div>
+    </section>
+    <section id="method" class="method-section section-space" aria-labelledby="method-title">
+      <div class="wrap">
+        <div class="section-kicker"><span class="mono">The Cube method</span></div>
+        <div class="section-heading"><h2 id="method-title">From “what if”<br>to <em>“let’s try this.”</em></h2><p>Four thoughtful steps.<br>One continuous thread.</p></div>
+        <div class="method-tabs" role="tablist" aria-label="The four steps of Cube"><button id="tab-context" role="tab" aria-selected="true" aria-controls="method-panel" data-step="0"><span>01</span>Context</button><button id="tab-decompose" role="tab" aria-selected="false" aria-controls="method-panel" tabindex="-1" data-step="1"><span>02</span>Decompose</button><button id="tab-ideate" role="tab" aria-selected="false" aria-controls="method-panel" tabindex="-1" data-step="2"><span>03</span>Ideate</button><button id="tab-map" role="tab" aria-selected="false" aria-controls="method-panel" tabindex="-1" data-step="3"><span>04</span>2×2 Map</button></div>
+        <div id="method-panel" class="method-panel" role="tabpanel" aria-labelledby="tab-context" tabindex="0">
+          <div class="method-explanation"><h3 id="method-name">Put the question<br>on the table.</h3><p id="method-copy">Give your challenge some context. What are you trying to solve? Who might it matter to? Start with what you know.</p><div id="method-outcome" class="method-outcome"><p>A clearer design challenge.</p></div><a class="text-link" href="https://cubeboard-demo-blair.clever-flint-5576.chatgpt.site/" target="_blank" rel="noopener">Explore this example <span aria-hidden="true">+</span></a></div>
+          <div class="product-window"><div class="window-top"><svg width="18" height="21" aria-hidden="true"><use href="#cube-mark"/></svg><span>Onboarding exploration</span><span class="window-badge">Example</span></div><div id="product-preview" class="product-preview"></div><div class="window-bottom"><span class="window-pagination" aria-hidden="true"><i class="current"></i><i></i><i></i><i></i></span></div></div>
+        </div>
+      </div>
+    </section>
+    <section id="perspectives" class="perspectives-section section-space" aria-labelledby="perspectives-title">
+      <div class="wrap"><div class="section-kicker"><span class="mono">Six perspectives</span></div>
+      <div class="perspective-layout"><div class="perspective-intro"><h2 id="perspectives-title">Turn the cube.<br><em>Open your mind.</em></h2><p>The name comes from a cube’s six faces. Each is a different way to look at the same problem. Pick a perspective and see where it takes you.</p><div class="face-options" role="group" aria-label="Choose a thinking perspective"><button data-face="user" aria-pressed="true"><span>01</span>User</button><button data-face="emotion" aria-pressed="false"><span>02</span>Emotion</button><button data-face="business" aria-pressed="false"><span>03</span>Business</button><button data-face="tech" aria-pressed="false"><span>04</span>Tech</button><button data-face="constraint" aria-pressed="false"><span>05</span>Constraint</button><button data-face="wildcard" aria-pressed="false"><span>06</span>Wildcard</button></div></div>
+      <div class="perspective-card" id="perspective-card" aria-live="polite" aria-atomic="true"><div class="perspective-card-top"><span id="face-name" class="mono">User perspective</span></div><div class="question-glyph" aria-hidden="true">?</div><p id="face-question">What would make a first-time user feel confident enough to begin?</p><div class="perspective-card-bottom"><span id="face-caption">Start with the person on the other side.</span><button id="next-perspective" aria-label="Try another perspective"><svg width="22" height="24" aria-hidden="true"><use href="#cube-mark"/></svg>Another angle</button></div></div></div>
+      </div>
+    </section>
+    <section class="companion-section wrap section-space" aria-labelledby="companion-title"><div class="section-kicker"><span class="mono">Cube Companion</span></div><div class="companion-grid"><div><h2 id="companion-title">More curiosity.<br><em>More you.</em></h2><p class="companion-intro">We’re designing Cube to be the AI partner that keeps a conversation open: asking useful questions, surfacing overlooked perspectives, and making its reasoning visible.</p><a class="text-link" href="#questions">Where we are today <span aria-hidden="true">+</span></a></div><div class="companion-notes"><article><span class="mono">01</span><div><h3>A nudge toward the next question.</h3><p>Thoughtful prompts to help you move when a challenge feels too broad.</p></div></article><article><span class="mono">02</span><div><h3>A fresh pair of eyes.</h3><p>A way to notice the perspectives that haven’t had a place on the board yet.</p></div></article><article><span class="mono">03</span><div><h3>A reason behind every suggestion.</h3><p>Thinking you can examine, challenge, and make your own.</p></div></article></div></div></section>
+    <section id="questions" class="faq-section wrap section-space" aria-labelledby="faq-title"><div><span class="mono">Good to know</span><h2 id="faq-title">Before you<br><em>begin.</em></h2></div><div class="faq-list"><details open><summary>What can I try right now?<span aria-hidden="true">+</span></summary><div><p>The interactive prototype takes you through Context, Decompose, Ideate, and a 2×2 Map. Write questions, add and arrange ideas, rate your options, and export your board or a direction summary.</p></div></details><details><summary>Is the AI companion connected?<span aria-hidden="true">+</span></summary><div><p>Not yet. The current prototype lets you explore the workflow manually. AI conversations and generated suggestions are part of the product vision, and aren’t connected in this version.</p></div></details><details><summary>What’s the difference between the prototype and demo?<span aria-hidden="true">+</span></summary><div><p>The prototype starts with a blank workspace for your own challenge. The demo comes with an onboarding brief, three questions, and eight ideas so you can explore a worked example. They are separate websites with separate board data.</p></div></details><details><summary>Where does my work live?<span aria-hidden="true">+</span></summary><div><p>Boards are saved in the browser you’re using. Export a board file to keep a copy or move it to another device. Cloud sync and live collaboration aren’t available yet.</p></div></details></div></section>
+    <section class="start-section wrap" aria-labelledby="start-title"><h2 id="start-title">What are you<br><em>curious about?</em></h2><div class="start-actions"><a class="button button-light" href="https://cubeboard-studio-blair.clever-flint-5576.chatgpt.site/" target="_blank" rel="noopener">Start with a blank board <span class="button-corner" aria-hidden="true">+</span></a><a class="text-link" href="https://cubeboard-demo-blair.clever-flint-5576.chatgpt.site/" target="_blank" rel="noopener">Explore the demo <span aria-hidden="true">+</span></a></div><div class="start-ascii" aria-hidden="true">░░▒▒▓▓ ▒░░  ░▒▓▓▒░ ░░▒<br>▒▓▓░░ ▓▓▒░ ░░▒▓▓▓▒░░<br>▓▓▒░ ░░▒▓▓▒ ░░▒▓▒░ ▒▓<br>▒░░▓▓▒ ░▒▓░░ ▓▒░░▒▓▓<br>░▒▓▓▒░ ░░▒▓▓▓▒░ ░░▒▓<br>▓▒░░ ▒▓▓░░▒▓▒░░▓▓▒░░</div></section>
+  </main>
+  <footer class="site-footer wrap"><div class="footer-top"><a class="wordmark" href="#" aria-label="Cube.AI home"><svg width="25" height="30" aria-hidden="true"><use href="#cube-mark"/></svg><span>cube<span class="wordmark-ai">.ai</span></span></a><p>A little space for bigger possibilities.</p><a class="back-top mono" href="#">Back to top</a></div><div class="footer-bottom"><span>© <span id="year">2026</span> Cube.AI</span><nav aria-label="Footer navigation"><a href="https://cubeboard-studio-blair.clever-flint-5576.chatgpt.site/" target="_blank" rel="noopener">Prototype</a><a href="https://cubeboard-demo-blair.clever-flint-5576.chatgpt.site/" target="_blank" rel="noopener">Demo</a></nav></div></footer>
+</body>
+</html>
